@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <img class="logo" src="logo.png">
+    </center>
+    
+    <div class="hero">
+        <h1 class="head">STUDENT LOGIN</h1><hr><br><br><br><br>
+        <form action="#" method="post" target="_self">
+            <label class="text" for="id-no">Identity Number:</label><br><br>
+            <input class="box" type="" id="id-no" name="identity-number" placeholder="Student/Applicant" required><br><br><br><br>
+            
+            <label class="text" for="psw">Password:</label><br><br> 
+         <input class="box" type="password" id="psw" name="password" placeholder="Password" 
+pattern="(?=.*[A-Z])(?=.*[a-z])(2=. x[&%#@+])(2=.*[8-9]).{8, }" title="Must contain at least:a letter (uppercase and lowercase) a number a special character and at least 8 characters or more" required>
+            
+            <p class="fp">Forget Password?</p>
+        <button class="btn" type="submit">Login</button>
+        </form>
+        
+    </div>
+</body>
+</html>
